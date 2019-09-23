@@ -1,0 +1,109 @@
+#navUser:hover{
+    background:#374850;
+
+
+}
+#navUsern span:hover::before {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.2s,
+    width 0.2s;
+    -moz-transition: -moz-transform 0.2s,
+    width 0.2s;
+    transition: transform 0.2s,
+    width 0.2s;
+
+}
+
+#fondoLogo{
+    background-image: url(../img/fondo.png);
+    background-repeat:no-repeat;
+    height: 100%;
+}
+
+.sidebar-footer {
+    bottom: 0px;
+    clear: both;
+    display: block;
+    padding: 5px 0 0 0;
+    position: fixed;
+    width: 100%;
+    background: #425567;
+    z-index: 999;
+}
+.sidebar-footer i {
+    color: #ECF0F1;
+}
+.sidebar-footer a {
+    padding: 5px 0 7px;
+    text-align: center;
+    width: 20%;
+    font-size: 17px;
+    display: block;
+    float: left;
+    background: #425567;
+    cursor: pointer;
+}
+
+.sidebar-footer a:hover {
+    background:#374850;
+}
+
+.footer_fixed footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    .footer_fixed footer {
+        margin-left: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .footer_fixed .nav-sm footer {
+        margin-left: 0
+    }
+}
+@media (max-width: 1020px) {
+    .footer_fixed .nav-sm footer {
+        width: 100%;
+    }
+}
+.navfixed {
+    height: 100%;
+    position: fixed
+}
+
+
+table.jambo_table {
+    border: 1px solid rgba(221, 221, 221, 0.78)
+}
+
+table.jambo_table thead {
+    background: rgba(52, 73, 94, 0.94);
+    color: #ECF0F1
+}
+
+table.jambo_table tbody tr:hover td {
+    background: rgba(38, 185, 154, 0.07);
+    border-top: 1px solid rgba(38, 185, 154, 0.11);
+    border-bottom: 1px solid rgba(38, 185, 154, 0.11)
+}
+
+table.jambo_table tbody tr.selected {
+    background: rgba(38, 185, 154, 0.16)
+}
+
+table.jambo_table tbody tr.selected td {
+    border-top: 1px solid rgba(38, 185, 154, 0.4);
+    border-bottom: 1px solid rgba(38, 185, 154, 0.4)
+}
+
